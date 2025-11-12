@@ -6,7 +6,7 @@ interface GreetingProps {
   name: string; // 'name' must be a string
 }
 
-// Step 2: Define the functional component with typed props
+// Define the functional component with typed props
 // Optionally, you can use React.FC<GreetingProps> (Functional Component type)
 const Greeting: React.FC<GreetingProps> = ({ name }) => {
   return <div>Hello, {name}!</div>;
